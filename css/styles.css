@@ -68,7 +68,7 @@ nav ul {
 }
 
 /* Header Media Query */
-@media screen and (max-aspect-ratio: 3/2) {
+@media screen and (max-aspect-ratio: 2/1) {
   .splash-image {
     background-size: cover;
   }
