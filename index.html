@@ -11,9 +11,9 @@
         <!-- Fold-away Navigation Bar -->
         <nav>
           <ul>
-            <a href="#welcome"><li>About Us</li></a>
-            <a href="#band-members"><li>Meet the Band</li></a>
-            <a href="#contact-us"><li>Contact Us</li></a>
+            <a class="nav-item" href="#welcome"><li>About Us</li></a>
+            <a class="nav-item" href="#band-members"><li>Meet the Band</li></a>
+            <a class="nav-item" href="#contact-us"><li>Contact Us</li></a>
             <li>
               <a href="https://www.facebook.com/Platform.22Trio/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
               <a href="https://twitter.com/platform_22"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
@@ -24,8 +24,8 @@
       </div>
     </header>
     <main>
-      <div class="center">
-        <h1 id="welcome">Welcome To Platform 22</h1>
+      <div id="welcome" class="center">
+        <h1>Welcome To Platform 22</h1>
       </div>
 
       <section class="row">
@@ -38,14 +38,31 @@
       </section>
 
       <section>
-        <article class="center">
-          <h2 id="band-members">Meet The Band</h2>
-        </article>
+        <article id="band-members" class="center">
+          <h2>Meet The Band</h2>
+          <div class="profile-wrapper">
+            <article class="profile">
+              <img class="band-mugshot" src="img/kev-min.jpg" alt="Kev">
+              <h3>Kev</h3>
+              <p>Drummer (cajon), backing vocals and kazooist.</p>
+            </article>
+            <article class="profile">
+              <img class="band-mugshot" src="img/lew-min.jpg" alt="Lew">
+              <h3>Lew</h3>
+              <p>Lead vocalist and "all around top bloke".</p>
+            </article>
+            <article class="profile">
+              <img class="band-mugshot" src="img/tom-min.jpg" alt="Tom">
+              <h3>Tom</h3>
+              <p>Guitarist and wearer of the famous "Mustard Socks".</p>
+            </article>
+          </article>
+          </div>
       </section>
 
       <section>
-        <article class="center">
-          <h2 id="contact-us">Contact Us</h2>
+        <article id="contact-us" class="center">
+          <h2>Contact Us</h2>
         </article>
       </section>
     </main>
