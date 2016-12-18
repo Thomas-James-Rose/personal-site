@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header>
+    <header id="page-header">
       <img class="mobile-image" src="img/logo.png" alt="Platform 22">
       <div class="splash-image">
-        <nav>
+        <nav id="main-nav">
           <ul>
+            <a id="top-arrow" href="#"><li><i class="fa fa-arrow-circle-up icon" aria-hidden="true"></i></li></a>
             <a class="nav-item" href="#welcome"><li>About Us</li></a>
             <a class="nav-item" href="#band-members"><li>Meet the Band</li></a>
             <a class="nav-item" href="#contact-us"><li>Contact Us</li></a>
             <li>
-              <a href="https://www.facebook.com/Platform.22Trio/"><i class="fa fa-facebook-square social" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/platform_22"><i class="fa fa-twitter-square social" aria-hidden="true"></i></a>
-              <a href="https://www.instagram.com/platform_22/"><i class="fa fa-instagram social" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/Platform.22Trio/"><i class="fa fa-facebook-square icon" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/platform_22"><i class="fa fa-twitter-square social icon" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/platform_22/"><i class="fa fa-instagram social icon" aria-hidden="true"></i></a>
             </li>
           </ul>
         </nav>
@@ -28,7 +29,7 @@
     <main>
       <section id="welcome">
         <div class="center">
-          <h1>Welcome To Platform 22</h1>
+          <h1 class="welcome-message">Welcome To Platform 22</h1>
         </div>
         <div class="row">
           <article class="row-item">
@@ -66,17 +67,26 @@
       <section id="contact-us">
         <article class="center">
           <h2>Contact Us</h2>
+          <p>Find us on <a class="body-link" href="https://www.facebook.com/Platform.22Trio/">Facebook</a>,
+            <a class="body-link" href="https://twitter.com/platform_22">Twitter</a> and
+            <a class="body-link" href="https://www.instagram.com/platform_22/">Instagram.</a>
+          </p>
+          <p>Alternatively email us at: anemailaddress@somedomain.com</p>
+          <img class="whole-band-pic" src="img/whole-band-min.jpg" alt="Whole Band">
         </article>
       </section>
     </main>
 
     <footer>
-      <a href="#" class="center"><h3>Back to Top</h3></a>
-      <a href="https://www.facebook.com/Platform.22Trio/"><i class="fa fa-facebook-square social" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/platform_22"><i class="fa fa-twitter-square social" aria-hidden="true"></i></a>
-      <a href="https://www.instagram.com/platform_22/"><i class="fa fa-instagram social" aria-hidden="true"></i></a>
+      <p>
+        <a href="https://www.facebook.com/Platform.22Trio/"><i class="fa fa-facebook-square icon" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/platform_22"><i class="fa fa-twitter-square icon" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/platform_22/"><i class="fa fa-instagram icon" aria-hidden="true"></i></a>
+      </p>
+      <span>Copyright &#169 2016 Platform 22</span>
     </footer>
   </body>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
   <script src="https://use.fontawesome.com/49813b923b.js"></script>
 </html>
