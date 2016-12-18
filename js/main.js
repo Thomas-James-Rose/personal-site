@@ -1,4 +1,4 @@
-// on scroll
+// on scroll (source: http://stackoverflow.com/questions/28392145/change-css-after-scrolling)
 $(window).on('scroll',function(){
 
     var mainbottom = $('#page-header').offset().top + $('#page-header').height();
